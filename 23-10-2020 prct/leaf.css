@@ -1,0 +1,38 @@
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: coral;
+}.firstclass{
+    width: 160px;
+    height: 160px;
+    background-color: darkred;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+}
+.secondclass{
+    width: 160px;
+    height: 160px;
+    background-color: darkred;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+}

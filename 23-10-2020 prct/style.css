@@ -1,0 +1,32 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: coral;
+}
+img{
+    border: 2px  solid blueviolet;
+}
+img:hover{
+    border: 6px solid red;
+    transition: all 4s;
+}
+body{
+    background-image: url(codding.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}

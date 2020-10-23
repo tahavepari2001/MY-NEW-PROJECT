@@ -1,0 +1,114 @@
+p{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #c58c85;
+    border: 2px solid black;
+    transition: all 4s;
+}
+.circle:hover{
+    width: 400px;
+    height: 400px;  
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #592f2a;
+    border: 2px solid #97c585;
+    transition: all 4s;
+}
+.smallcircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: wheat;
+    border: 5px dotted red;
+    position: relative;
+    left: 30px;
+    top: 110px;
+    transition: all 4s;
+}
+.smallcircle:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    border: 5px dotted wheat;
+    position: relative;
+    left: 30px;
+    top: 110px;
+    transform: rotate(36000000deg);
+    transition: all 4s;
+}
+
+.small2circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: wheat;
+    border: 5px dotted red;
+    position: relative;
+    left: 260px;
+    transition: all 4s;
+}
+.small2circle:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    border: 5px dotted wheat;
+    position: relative;
+    left: 260px;
+    transition: all 4s;
+    transform: rotate(36000000000deg);
+    transition: all 4s;
+}
+.smile{
+    width: 250px;
+    height: 5px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 75px;
+    top: 90px;
+    transition: all 4s;
+}
+.smile:hover{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(235, 245, 181);
+    position: relative;
+    left: 100px;
+    top: 90px;
+    transition: all 2s;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: coral;
+}
